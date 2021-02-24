@@ -1,0 +1,52 @@
+## LOGIC PROGRAMMING ##
+=1+1
+# 2
+
+"Nadja"
+# 'Nadja'
+
+'Nadja'
+# 'Nadja'
+
+name = 'Nadja'
+age = 100
+print(f'My name is {name} and my age is {age} years old')
+# My name is Nadja and my age is 100 years old
+
+## CREATING FIRST FUNCTION ##
+
+def welcome ():
+name = input('What is your name?')
+print(f'Hello {name}!')
+
+welcome()
+# What is your name?Nadja
+# Hello Nadja!
+
+## Parameters ##
+
+name = 'Luiza'
+def welcome_with_parameter(name_of_the_person):
+print(f'Hello {name_of_the_person}!')
+
+## Conditions ##
+Example: Know if you are able to drive or not
+
+age = 20
+def verify_you_can_drive(age):
+  if age >= 18:
+    print("Have permission to drive!")
+  else:
+    print("Don't have permission to drive!")
+verify_you_can_drive(age)
+    
+def verify_if_you_can_drive_without_parameters():
+  age = input('What is your age?')
+  age = int(age)
+  if age >= 18:
+    print('Have permission to drive!')
+  else:
+    print('Dont have permission to drive!')
+
+verify_if_you_can_drive_without_parameters()
+
