@@ -1,0 +1,159 @@
+# 1. Introduction to Python
+# 2. Lists and Tuples 
+# 3. Strings
+# 4. Dictionaries
+# 5. Conditional and Looping Statements 
+# 6. Functions
+# 7. Object-Oriented Programming
+# 8. Date and Time
+# 9. Regular Expressions
+# 10. File Manipulation
+
+# Python (1989)
+# Fields:
+# Data Science / Writing system tools / Developing applications with graphical UIs /
+# Writing network-based software / Interacting with databases / IoT 
+
+# Python - Data types: numeric, boolen, sequence type, dictionary
+
+>>>type(1234)
+<class 'int'
+>>>type(55.50)
+<class 'float'
+>>>type("hello")
+<class 'str'
+>>>type([1,2,3,4])
+<class 'list'>
+>>>type((1,2,3,4))
+<class 'tupe'>
+>>>type({1:"one",2:"two",3:"three"})
+<class 'dict'>
+
+# 2. List and Tuples
+cmp(list1,list2)
+len(list)
+max(list)
+min(list)
+list(seq)
+
+# Example:
+name = 'professor'
+type(name)
+#<class 'str'> 
+x = list(name)
+x
+#['p', 'r', 'o', 'f', 'e', 's', 's', 'o', 'r']
+y = '', join(x)
+y
+>>'professor'
+
+num = [1,4,8,3,9]
+num
+min(num)
+
+max(num)
+
+num=[1,3,5,6,9]
+num[2]
+>>5
+
+# 4. String format
+
+print("My name is %s and age is %d!"%('AI',63))
+>>My name is AI and my age is 63!
+
+%c - Character and its ASCII code
+%s - String
+%d - Signed integer (decimal)
+%u - Unsigned integer (decimal)
+%o - Unsigned integer (octal)
+%x - Unsigned integer (hexadecimal)
+%X - Unsigned integer (hexadecimal upper-case letters)
+%e - Floating number (scientific counting method)
+%E - Floating number (scientific counting method. E replacing e)
+%f - Floating number (decimal point sign)
+%g - Floating number (%e or %f, depending on a value)
+%G - Floating number (similar to %g)
+
+# 5. Conditional and Looping Statements
+# if
+a=4
+b=3
+if a>b :
+    print('a it's bigger')
+
+#while
+age = 0
+while(age < 100):
+  print("The age is:", age)
+  age = age + 1
+  print("Good bye!")
+  
+#for
+ages =[6,1,60]
+for num in ages:
+   if num == 6:
+     print("He is a boy, his age is %d" % (num))
+   elif num == 60:
+     print("He is an oldman, his age is %d"% (num))
+   else:
+     print("He is a baby, his age is %d" % (num))
+  
+for x in 'curso':
+print(x)
+...
+  c
+  u
+  r
+  s
+  o
+  ...
+      
+for x in range (6):
+...
+0
+1
+2
+3
+4
+5
+...
+  
+#break and continue
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+        break
+          or
+        continue
+         
+# 7. Object-Oriented Programming (OOP)
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
